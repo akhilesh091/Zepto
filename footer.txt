@@ -1,0 +1,176 @@
+  <div class="footer-ulist">
+        <div class="footer-list-item">
+           <div class="logo">
+            <img src="https://uploads-ssl.webflow.com/60be6e42ecea08f815b762c3/60d63a5e002c46ace40429f6_logo.svg" alt="" width="150px" height="30px">
+
+           </div>
+           <div class="menu-list">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Delivery Areas</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Customer Support</a></li>
+                <li><a href="#">Press</a></li>
+            </ul>
+           </div>
+           <div class="social-menu">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i><span>instagram</span></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i><span>Facebook</span></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i><span>Twiter</span></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i><span>Linkedin</span></a></li>
+                
+            </ul>
+           </div>
+           <div class="copy">
+            <p> <i class="fa-regular fa-copyright"></i>KiranaKart Technologies Private Limited</p>
+           </div>
+           <div class="privacy">
+            <p><a href="#">Privacy Policy</a></p>
+           </div>
+           <div class="use">
+            <p><a href="#">Terms Of Use</a></p>
+           </div>
+           <div class="policy">
+            <p><a href="#">Responsible Disclosure Policy</a></p>
+           </div>
+           
+        </div>
+
+    </div>
+
+
+css
+
+
+
+
+
+
+
+.footer-ulist{
+    width: 100%;
+    height: auto;
+    background-color: #2A0249;
+    margin-top: -10px;
+
+}
+.footer-ulist .footer-list-item{
+    max-width: 1300px;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(4,1fr);
+    
+}
+.footer-ulist .footer-list-item .logo{
+    grid-column-start:1 ;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-top: 30px;
+    font-size: 50px;
+}
+.footer-ulist .footer-list-item .menu-list{
+    grid-column-start:1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+ul{
+    list-style-type: none;
+}
+.footer-ulist .footer-list-item .menu-list a{
+    text-decoration: none;
+    font-size: 20px;
+    
+    color: #fff;
+    
+}
+.footer-ulist .footer-list-item .social-menu{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+a{
+    text-decoration: none;
+}
+.footer-ulist .footer-list-item .social-menu span{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+    
+
+}
+.footer-ulist .footer-list-item .social-menu i{
+    color: #fff;
+}
+.footer-ulist .footer-list-item .copy{
+    grid-column-start:1 ;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    color: #fff;
+    margin-left: 30px;
+    
+}
+
+.footer-ulist .footer-list-item .privacy{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    
+}
+.footer-ulist .footer-list-item .privacy a{
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.footer-ulist .footer-list-item .use{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.footer-ulist .footer-list-item .use a{
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.footer-ulist .footer-list-item .policy{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.footer-ulist .footer-list-item .policy a{
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-left: -20px;
+}
+
+@media (max-width:992px){
+    .footer-ulist .footer-list-item .use{
+        grid-column-start:2.;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        color: #fff;
+        margin-left: 30px;
+        
+    }
+
+}
+
+
+
+
+
+
